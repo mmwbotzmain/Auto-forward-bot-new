@@ -14,9 +14,8 @@ class Translation(object):
 ᴄʟɪᴄᴋ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ</b>"""
 
 
-  DONATE_TXT = """<b><i>If you liked me ❤️. consider make a donation to support my developer 👦
-
-UPI ID - </i></b><code>pay-to-yash-singh@fam</code>"""
+  DONATE_TXT = """<b><i>If you liked me ❤️. NO NEED TO DONATION ONLY KEEP SUPPORT AND SHARE 😌
+~@mallumovieworldmain1 </i></b><code> Thanks For Your Support </code>"""
 
   HELP_TXT = """<b><u>🔆 ʜᴇʟᴘ</b></u>
 
