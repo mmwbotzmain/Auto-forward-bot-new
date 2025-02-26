@@ -23,7 +23,6 @@ main_buttons = [[
         ],[
         InlineKeyboardButton('💳 ᴅᴏɴᴀᴛᴇ', callback_data='donate')
         ]]
-#===================Start Function===================#
 
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
@@ -189,10 +188,6 @@ async def status(bot, query):
         disable_web_page_preview=True,
     )
 
-#Dont Remove My Credit @Silicon_Bot_Update 
-#This Repo Is By @Silicon_Official 
-# For Any Kind Of Error Ask Us In Support Group @Silicon_Botz 
-
 @Client.on_callback_query(filters.regex(r'^server_status'))
 async def server_status(bot, query):
     ram = psutil.virtual_memory().percent
@@ -205,15 +200,3 @@ async def server_status(bot, query):
         disable_web_page_preview=True,
     )
 
-#Dont Remove My Credit @Silicon_Bot_Update 
-#This Repo Is By @Silicon_Official 
-# For Any Kind Of Error Ask Us In Support Group @Silicon_Botz 
-
-#===================Donate Function===================#
-
-@Client.on_message(filters.private & filters.command(['donate']))
-async def restart(client, message):
-    msg = await message.reply_text(
-        text="<i>If you liked me ❤️. NO NEED TO DONATION ONLY KEEP SUPPORT AND SHARE 😌
-~ @mallumovieworldmain1 </i>"
-        )
