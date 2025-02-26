@@ -20,8 +20,6 @@ main_buttons = [[
         ],[
         InlineKeyboardButton('📜 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/maxmallumovieworldsupport'),
         InlineKeyboardButton('📢 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/mallumovieworldmain1')
-        ],[
-        InlineKeyboardButton('💳 ᴅᴏɴᴀᴛᴇ', callback_data='donate')
         ]]
 
 @Client.on_message(filters.private & filters.command(['start']))
