@@ -125,18 +125,7 @@ async def about(bot, query):
         parse_mode=enums.ParseMode.HTML,
     )
     
-#Dont Remove My Credit @Silicon_Bot_Update 
-#This Repo Is By @Silicon_Official 
-# For Any Kind Of Error Ask Us In Support Group @Silicon_Botz 
 
-@Client.on_callback_query(filters.regex(r'^donate'))
-async def donate(bot, query):
-    await query.message.edit_text(
-        text=Translation.DONATE_TXT,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('• ʙᴀᴄᴋ', callback_data='back')]]),
-        disable_web_page_preview=True,
-        parse_mode=enums.ParseMode.HTML,
-    )
 
 START_TIME = datetime.datetime.now()
 
